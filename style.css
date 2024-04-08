@@ -1,0 +1,55 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body{
+    background-color: #fafafa;
+}
+
+#logo {
+    text-align: center;
+}
+
+#logo img {
+    display: inline-block;
+    vertical-align: middle; /* Align the image vertically to the middle */
+    border: 2px;
+    height: 4em;
+}
+
+#logo h2 {
+    font-family: 'Pacifico', cursive;
+    font-style: italic;
+    display: inline-block; /* Make the h2 element inline block */
+    vertical-align: middle; /* Align the h2 element vertically to the middle */
+    margin-left: 10px; /* Add some left margin to create space between the image and h2 element */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #db9833;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #db9833;
+  }
+
+#cool h1{
+    font-size: 90em;
+}
